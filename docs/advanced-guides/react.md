@@ -58,9 +58,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { ReactView } from "./ReactView";
 
-const VIEW_TYPE_EXAMPLE = "example-view";
+export const VIEW_TYPE_EXAMPLE = "example-view";
 
-class ExampleView extends ItemView {
+export class ExampleView extends ItemView {
   constructor(leaf: WorkspaceLeaf) {
     super(leaf);
   }
